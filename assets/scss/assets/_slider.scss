@@ -1,0 +1,147 @@
+.swiper-overflow-container {
+  overflow-x: hidden;
+  .container {
+    overflow: visible;
+    // outline: 2px solid red;
+    // padding: 0 !important;
+  }
+  .swiper-container {
+    overflow: visible;
+
+    .swiper-pagination {
+      margin-bottom: -10px;
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background-color: #747474;
+      }
+    }
+  }
+}
+
+.item {
+  ul {
+    li {
+      margin-bottom: 10px;
+
+      &::before {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><g id="Group_192" data-name="Group 192" transform="translate(-0.235 -0.092)"><g id="Ellipse_10" data-name="Ellipse 10" transform="translate(0.235 0.092)" fill="none" stroke="%236cc468" stroke-width="1.2"><circle cx="9" cy="9" r="9" stroke="none"/><circle cx="9" cy="9" r="8.4" fill="none"/></g><path id="Path_2" data-name="Path 2" d="M-2025.031,1434.574l2.19,2.364,3.736-3.765" transform="translate(2031.65 -1426.155)" fill="none" stroke="%236cc468" stroke-width="1.2"/></g></svg>');
+        display: block;
+        margin-top: 1px;
+        margin-right: 10px;
+        height: 18px;
+      }
+
+      // media query
+      @media (min-width: 768px) {
+        margin-bottom: 10px;
+
+        &::before {
+          content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18"><g id="Group_192" data-name="Group 192" transform="translate(-0.235 -0.092)"><g id="Ellipse_10" data-name="Ellipse 10" transform="translate(0.235 0.092)" fill="none" stroke="%236cc468" stroke-width="1.2"><circle cx="9" cy="9" r="9" stroke="none"/><circle cx="9" cy="9" r="8.4" fill="none"/></g><path id="Path_2" data-name="Path 2" d="M-2025.031,1434.574l2.19,2.364,3.736-3.765" transform="translate(2031.65 -1426.155)" fill="none" stroke="%236cc468" stroke-width="1.2"/></g></svg>');
+          margin-top: 2px;
+          margin-right: 13px;
+          height: 16px;
+        }
+      }
+
+      // media query
+      @media (min-width: 1280px) {
+        margin-bottom: 5px;
+
+        &::before {
+          content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 18 18"><g id="Group_192" data-name="Group 192" transform="translate(-0.235 -0.092)"><g id="Ellipse_10" data-name="Ellipse 10" transform="translate(0.235 0.092)" fill="none" stroke="%236cc468" stroke-width="1.2"><circle cx="9" cy="9" r="9" stroke="none"/><circle cx="9" cy="9" r="8.4" fill="none"/></g><path id="Path_2" data-name="Path 2" d="M-2025.031,1434.574l2.19,2.364,3.736-3.765" transform="translate(2031.65 -1426.155)" fill="none" stroke="%236cc468" stroke-width="1.2"/></g></svg>');
+          margin-top: 2px;
+          margin-right: 15px;
+          height: 19px;
+        }
+      }
+
+      // media query
+      @media (min-width: 1440px) {
+        margin-bottom: 5px;
+
+        &::before {
+          content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 18 18"><g id="Group_192" data-name="Group 192" transform="translate(-0.235 -0.092)"><g id="Ellipse_10" data-name="Ellipse 10" transform="translate(0.235 0.092)" fill="none" stroke="%236cc468" stroke-width="1.2"><circle cx="9" cy="9" r="9" stroke="none"/><circle cx="9" cy="9" r="8.4" fill="none"/></g><path id="Path_2" data-name="Path 2" d="M-2025.031,1434.574l2.19,2.364,3.736-3.765" transform="translate(2031.65 -1426.155)" fill="none" stroke="%236cc468" stroke-width="1.2"/></g></svg>');
+          margin-top: 5px;
+          margin-right: 18px;
+          height: 22px;
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.mySwiper {
+  .swiper-wrapper {
+    padding-bottom: 115px;
+  }
+  .swiper-button-next {
+    bottom: 0;
+    top: unset;
+    right: calc(50% - 77px);
+    width: 67px;
+    padding-bottom: 35px;
+
+    &::after {
+      content: unset;
+    }
+  }
+  .swiper-button-prev {
+    bottom: 0;
+    top: unset;
+    left: calc(50% - 77px);
+    width: 67px;
+    padding-bottom: 35px;
+    &::after {
+      content: unset;
+    }
+  }
+
+  .swiper-slide {
+    width: 312px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:hidden-slider {
+    display: none !important;
+  }
+}
+
+.mySwiper-media {
+  // padding: unset;
+  .swiper-wrapper {
+    padding-bottom: 65px;
+  }
+  .swiper-button-next-media {
+    bottom: 0;
+    top: unset;
+    right: 50px;
+    width: 50px;
+    position: absolute;
+
+    &::after {
+      content: unset;
+    }
+  }
+  .swiper-button-prev-media {
+    bottom: 0;
+    top: unset;
+    left: unset;
+    right: 125px;
+    width: 50px;
+    position: absolute;
+
+    &::after {
+      content: unset;
+    }
+  }
+
+  .swiper-slide {
+    width: 312px;
+    cursor: pointer !important;
+  }
+}

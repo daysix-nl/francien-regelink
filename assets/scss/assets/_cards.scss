@@ -1,0 +1,87 @@
+.accordion-item {
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+  // &:nth-of-type(1) {
+  //   border-top: 1px solid rgba(0, 0, 0, 0.125);
+  // }
+
+  .accordion {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition-delay: 0.2s;
+    transition-property: border-radius, background-color, color;
+    transition-duration: 0.2s;
+    background-color: #fff;
+    border-radius: 10px;
+
+    @media (min-width: 1280px) {
+      border-radius: 26px;
+    }
+
+    &::after {
+      content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"><g id="Group_196" data-name="Group 196" transform="translate(0.125)"><g id="Ellipse_9" data-name="Ellipse 9" transform="translate(-0.125 34) rotate(-90)" fill="none" stroke="%23cecece" stroke-width="1.5"><circle cx="17" cy="17" r="17" stroke="none"/><circle cx="17" cy="17" r="16.25" fill="none"/></g><line id="Line_4" data-name="Line 4" y1="5.976" x2="5.956" transform="translate(11.018 20.967) rotate(-90)" fill="none" stroke="%23cecece" stroke-linecap="round" stroke-width="1.5"/><line id="Line_5" data-name="Line 5" x1="5.956" y1="5.976" transform="translate(16.873 20.967) rotate(-90)" fill="none" stroke="%23cecece" stroke-linecap="round" stroke-width="1.5"/></g></svg>');
+      margin-left: auto;
+      transition: 0.3s;
+      display: block;
+      height: 34px;
+      // padding-left: 10px;
+      transform-origin: center;
+
+      // media query for mobile
+      @media (min-width: 768px) {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 34 34"><g id="Group_196" data-name="Group 196" transform="translate(0.125)"><g id="Ellipse_9" data-name="Ellipse 9" transform="translate(-0.125 34) rotate(-90)" fill="none" stroke="%23cecece" stroke-width="1.5"><circle cx="17" cy="17" r="17" stroke="none"/><circle cx="17" cy="17" r="16.25" fill="none"/></g><line id="Line_4" data-name="Line 4" y1="5.976" x2="5.956" transform="translate(11.018 20.967) rotate(-90)" fill="none" stroke="%23cecece" stroke-linecap="round" stroke-width="1.5"/><line id="Line_5" data-name="Line 5" x1="5.956" y1="5.976" transform="translate(16.873 20.967) rotate(-90)" fill="none" stroke="%23cecece" stroke-linecap="round" stroke-width="1.5"/></g></svg>');
+        height: 38px;
+      }
+      @media (min-width: 1280px) {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="59" height="59" viewBox="0 0 34 34"><g id="Group_196" data-name="Group 196" transform="translate(0.125)"><g id="Ellipse_9" data-name="Ellipse 9" transform="translate(-0.125 34) rotate(-90)" fill="none" stroke="%23cecece" stroke-width="1.5"><circle cx="17" cy="17" r="17" stroke="none"/><circle cx="17" cy="17" r="16.25" fill="none"/></g><line id="Line_4" data-name="Line 4" y1="5.976" x2="5.956" transform="translate(11.018 20.967) rotate(-90)" fill="none" stroke="%23cecece" stroke-linecap="round" stroke-width="1.5"/><line id="Line_5" data-name="Line 5" x1="5.956" y1="5.976" transform="translate(16.873 20.967) rotate(-90)" fill="none" stroke="%23cecece" stroke-linecap="round" stroke-width="1.5"/></g></svg>');
+        height: 59px;
+      }
+      @media (min-width: 1440px) {
+        content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 34 34"><g id="Group_196" data-name="Group 196" transform="translate(0.125)"><g id="Ellipse_9" data-name="Ellipse 9" transform="translate(-0.125 34) rotate(-90)" fill="none" stroke="%23cecece" stroke-width="1.5"><circle cx="17" cy="17" r="17" stroke="none"/><circle cx="17" cy="17" r="16.25" fill="none"/></g><line id="Line_4" data-name="Line 4" y1="5.976" x2="5.956" transform="translate(11.018 20.967) rotate(-90)" fill="none" stroke="%23cecece" stroke-linecap="round" stroke-width="1.5"/><line id="Line_5" data-name="Line 5" x1="5.956" y1="5.976" transform="translate(16.873 20.967) rotate(-90)" fill="none" stroke="%23cecece" stroke-linecap="round" stroke-width="1.5"/></g></svg>');
+        height: 68px;
+      }
+    }
+
+    &.active {
+      background-color: #fff;
+      border-radius: 10px 10px 0 0;
+      transition-delay: 0s;
+      transition: 0s;
+
+      @media (min-width: 1280px) {
+        border-radius: 26px 26px 0 0;
+      }
+
+      &::after {
+        // content: "-";
+        transform: rotate(180deg);
+        transform-origin: center;
+      }
+    }
+  }
+
+  .panel {
+    border-radius: 0 0 10px 10px;
+    @media (min-width: 1280px) {
+      border-radius: 0 0 26px 26px;
+    }
+    background-color: #fff;
+    // padding: 0 18px;
+    overflow: hidden;
+    height: 0;
+    transition: height 0.2s ease-out;
+  }
+}
+
+.bounce {
+  animation: 2s bounce infinite;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-5px);
+  }
+}

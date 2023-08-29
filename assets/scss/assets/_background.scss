@@ -1,0 +1,33 @@
+.header-bg {
+  background: rgb(246, 210, 213);
+  background: linear-gradient(
+    301deg,
+    #ffc18d 0%,
+    #ffc7b8 46%,
+    #ffcacc 66%,
+    #f6d2d5 100%
+  );
+}
+
+.bg-card {
+  background: linear-gradient(180deg, #f8f4f2 347px, #ffbd93 347px);
+}
+
+// media query
+@media (min-width: 768px) {
+  .bg-card {
+    background: linear-gradient(180deg, #f8f4f2 422px, #ffbd93 422px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .bg-card {
+    background: linear-gradient(180deg, #f8f4f2 552px, #ffbd93 552px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-card {
+    background: linear-gradient(180deg, #f8f4f2 605px, #ffbd93 605px);
+  }
+}
