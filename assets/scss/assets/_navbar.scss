@@ -5,14 +5,14 @@ $first-delay: 0.4s;
   .ul-animation {
     li {
       opacity: 0;
-      transition: all 0.5s ease-in-out;
-      transform: translateY(40px);
+      transition: all 0.4s ease-in-out;
+      transform: translateY(20px);
     }
   }
   .contact-button {
     opacity: 0;
-    transition: all 0.5s ease-in-out;
-    transform: translateY(40px);
+    transition: all 0.4s ease-in-out;
+    transform: translateY(20px);
   }
   &.active {
     .ul-animation {
@@ -21,7 +21,7 @@ $first-delay: 0.4s;
           &:nth-child(#{$i}) {
             opacity: 1;
             transform: translateY(0);
-            transition: all 0.5s ease-in-out;
+            transition: all 0.4s ease-in-out;
             @if $i == 1 {
               transition-delay: $first-delay;
             } @else {
@@ -34,7 +34,7 @@ $first-delay: 0.4s;
 
     .contact-button {
       opacity: 1;
-      transition: all 0.5s ease-in-out;
+      transition: all 0.4s ease-in-out;
       transform: translateY(0px);
       transition-delay: $first-delay + $transition-delay * 7;
     }
