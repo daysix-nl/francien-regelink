@@ -192,13 +192,13 @@
  </section>
 
  <section id="pakketten" class="">
-    <div class="container xl:mt-10 xl:mb-7 lg:mt-8 lg:mb-[65px] md:mt-[65px] md:mb-[55px] mt-[75px] mb-[55px]  w-[300px] md:w-full">
+    <div class="container xl:mt-10 xl:mb-7 lg:mt-8 lg:mb-[65px] md:mt-[65px] md:mb-[55px] mt-[75px] mb-[45px]  w-[300px] md:w-full">
         <h2 class="text-center font-satoshi font-black text-35 leading-50 md: md:text-40 md:leading-48 lg:text-52 lg:leading-62 xl:text-60 xl:leading-72 text-[#222222]">Verschillende mogelijkheden</h2>
     </div>
     <div class="swiper-overflow-container overflow-hidden">
         <div class="container">
 
-            <div class="swiper-container relative pb-5 lg:pb-0 overflow-hidden">
+            <div class="swiper-container relative md:pb-5 pb-7 lg:pb-0 overflow-hidden">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper ">
                     <!-- Slides -->
@@ -299,9 +299,9 @@
             <div class="w-[120vw] translate-x-[-6vw]" id="lottie-francien"></div>
     </section>
     <section id="reviews" class="section-par pt-5 md:pt-0">
-        <div class="grid-cols-3 gap-3 container hidden lg:grid">
+        <div class="grid-cols-3 gap-x-5  xl:max-w-[1200px] lg:max-w-[1064px] container hidden lg:grid">
             <div class="md:col-span-3 lg:col-span-1">
-                <div class="parralax-box pt-[300px] mb-[-300px]">
+                <div class="parralax-box pt-[300px] mb-[-300px] lg:space-y-4 xl:space-y-4">
                     <article class="rounded-[63px] py-6 px-4 xl:py-7 xl:px-5 lg:h-[444px] xl:h-[500px] bg-white mt-3 flex flex-col justify-between">
                         <div class="h-full flex">
                             <p class="xl:text-22 xl:leading-25 lg:text-19 lg:leading-22 text-[#222222] font-darker font-medium my-auto">Hallo Francien, Ik wil je heel erg bedanken voor je supertoffe les, je deed het geweldig! Ik heb na schooltijd nog meerdere enthousiaste reacties gehad en heb de klas nog nooit zo lang betrokken gezien bij een les. Echt helemaal top! </p>
@@ -317,7 +317,7 @@
                 </div>
             </div>
             <div class="md:col-span-3 lg:col-span-1">
-                <div>
+                <div class="lg:space-y-4 xl:space-y-4">
                     <article class="rounded-[63px] py-6 px-4 xl:py-7 xl:px-5 lg:h-[444px] xl:h-[500px] bg-white mt-3 flex flex-col justify-between">
                         <div class="h-full flex">
                             <p class="xl:text-22 xl:leading-25 lg:text-19 lg:leading-22 text-[#222222] font-darker font-medium my-auto">We hoorden alleen maar positieve reacties, je hebt echt een indruk achtergelaten. Hopelijk wil je volgend schooljaar ook weer terugkeren!  </p>
@@ -334,7 +334,7 @@
             </div>
             <div class="md:col-span-3 lg:col-span-1">
                 <div class="parralax-box pt-[300px] mb-[-300px]">
-                    <div>
+                    <div class=" lg:space-y-4 xl:space-y-4">
                     <article class="rounded-[63px] py-6 px-4 xl:py-7 xl:px-5 lg:h-[444px] xl:h-[500px] bg-white mt-3 flex flex-col justify-between">
                         <div class="h-full flex">
                             <p class="xl:text-22 xl:leading-25 lg:text-19 lg:leading-22 text-[#222222] font-darker font-medium my-auto">Wat bijzonder is, is dat Francien erg open is over haar eigen valkuilen en zaken waar zij tegenaan loopt in het leven, hetgeen voor herkenning zorgt bij de jongeren en zodoende verbindend werkt. Jongeren die normaliter moeizaam hun verhaal durven te doen, lijken te openen bij Francien</p>
@@ -352,7 +352,7 @@
             </div>
         </div>
 
-        <div class="container hidden md:grid lg:hidden grid-cols-2 gap-3">
+        <div class="container md:max-w-[698px] hidden md:grid lg:hidden grid-cols-2 gap-x-[35px] gap-y-3">
             <div class="parralax-box pt-[300px] mb-[-300px] col-span-1">
                 <div>
                     <article class="rounded-[63px] py-6 px-4 h-[444px] bg-white mt-3 flex flex-col justify-between">
@@ -468,39 +468,49 @@
 <section id="indeklas" class="pt-8 pb-[55px] md:pt-[73px] md:pb-[110px] lg:pt-[85px] lg:pb-[111px] xl:pt-[110px] xl:pb-[128px]">
     <div class="container">
         <h3 class="font-satoshi font-black text-35 leading-50 md: md:text-40 md:leading-48 lg:text-52 lg:leading-62 xl:text-60 xl:leading-72 text-[#222222]">Voor de klas</h3>
-        <p class="text-[#222222] font-satoshi text-16 leading-30 font-medium w-full max-w-[328px] mb-5 mt-4 md:text-20 md:leading-40 md:max-w-[637px] md:mt-5 md:mb-6 lg:text-20 lg:leading-40 lg:max-w-[874px] lg:mt-5 lg:mb-5 xl:text-23 xl:leading-45 xl:max-w-[986px] xl:mt-5 xl:mb-6">Ik sta nagenoeg elke week voor de klas of een groep in Nederland en België. Ik vertel dan in levenden lijve mijn ervaringsverhaal. Dit doe ik op middelbare scholen, jongereninstellingen, mbo’s en basisscholen.</p>
+        <p class="text-[#222222] font-satoshi text-16 leading-30 font-medium w-full max-w-[328px] mb-4 mt-3 md:text-20 md:leading-40 md:max-w-[637px] md:mt-4 md:mb-5 lg:text-20 lg:leading-40 lg:max-w-[874px] lg:mt-5 lg:mb-5 xl:text-23 xl:leading-45 xl:max-w-[986px] xl:mt-5 xl:mb-6">Ik sta nagenoeg elke week voor de klas of een groep in Nederland en België. Ik vertel dan in levenden lijve mijn ervaringsverhaal. Dit doe ik op middelbare scholen, jongereninstellingen, mbo’s en basisscholen.</p>
     </div>
     <div class="container space-y-[15px]">
         <div class="accordion-item"> 
-            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold  h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">Voorlichting</button>
+            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold  h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">
+                <p class="mb-[5px]">Voorlichting</p>
+            </button>
             <div class="panel px-4 lg:px-7 xl:px-[75px]">
                 <p class="text-[#222222] font-satoshi text-16 leading-30 font-medium w-full max-w-[328px]  md:text-20 md:leading-40 md:max-w-[637px]  lg:text-20 lg:leading-40 lg:max-w-[874px] xl:text-23 xl:leading-45 xl:max-w-[986px] ">Ik sta nagenoeg elke week voor de klas of een groep in Nederland en België. Ik vertel dan in levenden lijve mijn ervaringsverhaal. Dit doe ik op middelbare scholen, jongereninstellingen, mbo’s en basisscholen.</p>
                 <div class="pt-2 md:pt-3 lg:pt-4"></div>
             </div>
         </div>
         <div class="accordion-item"> 
-            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">Victim blaming</button>
+            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">
+                <p class="mb-[5px]">Victim blaming</p>
+            </button>
             <div class="panel px-4 lg:px-7 xl:px-[75px]">
                 <p class="text-[#222222] font-satoshi text-16 leading-30 font-medium w-full max-w-[328px]  md:text-20 md:leading-40 md:max-w-[637px]  lg:text-20 lg:leading-40 lg:max-w-[874px] xl:text-23 xl:leading-45 xl:max-w-[986px] ">Ik sta nagenoeg elke week voor de klas of een groep in Nederland en België. Ik vertel dan in levenden lijve mijn ervaringsverhaal. Dit doe ik op middelbare scholen, jongereninstellingen, mbo’s en basisscholen.</p>
                 <div class="pt-2 md:pt-3 lg:pt-4"></div>
             </div>
         </div>
         <div class="accordion-item"> 
-            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">Interactieve Sessie</button>
+            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">
+                <p class="mb-[5px]">Interactieve Sessie</p>
+            </button>
             <div class="panel px-4 lg:px-7 xl:px-[75px]">
                 <p class="text-[#222222] font-satoshi text-16 leading-30 font-medium w-full max-w-[328px]  md:text-20 md:leading-40 md:max-w-[637px]  lg:text-20 lg:leading-40 lg:max-w-[874px] xl:text-23 xl:leading-45 xl:max-w-[986px] ">Ik sta nagenoeg elke week voor de klas of een groep in Nederland en België. Ik vertel dan in levenden lijve mijn ervaringsverhaal. Dit doe ik op middelbare scholen, jongereninstellingen, mbo’s en basisscholen.</p>
                 <div class="pt-2 md:pt-3 lg:pt-4"></div>
             </div>
         </div>
        <div class="accordion-item"> 
-            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">Bespreekbaar maken</button>
+            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">
+                <p class="mb-[5px]">Bespreekbaar maken</p>
+            </button>
             <div class="panel px-4 lg:px-7 xl:px-[75px]">
                 <p class="text-[#222222] font-satoshi text-16 leading-30 font-medium w-full max-w-[328px]  md:text-20 md:leading-40 md:max-w-[637px]  lg:text-20 lg:leading-40 lg:max-w-[874px] xl:text-23 xl:leading-45 xl:max-w-[986px] ">Ik sta nagenoeg elke week voor de klas of een groep in Nederland en België. Ik vertel dan in levenden lijve mijn ervaringsverhaal. Dit doe ik op middelbare scholen, jongereninstellingen, mbo’s en basisscholen.</p>
                 <div class="pt-2 md:pt-3 lg:pt-4"></div>
             </div>
         </div>
         <div class="accordion-item"> 
-            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">Ouderavond</button>
+            <button class="accordion text-24 leading-35 md:text-28 md:leading-35 lg:text-42 lg:leading-35 xl:text-46 xl:leading-35 font-darker text-[#222222] font-bold h-[78px] md:h-[88px]  lg:h-[115px] xl:h-[130px] px-4 lg:px-7 xl:px-[75px] flex items-center">
+                <p class="mb-[5px]">Ouderavond</p>
+            </button>
             <div class="panel px-4 lg:px-7 xl:px-[75px]">
                 <p class="text-[#222222] font-satoshi text-16 leading-30 font-medium w-full max-w-[328px]  md:text-20 md:leading-40 md:max-w-[637px]  lg:text-20 lg:leading-40 lg:max-w-[874px] xl:text-23 xl:leading-45 xl:max-w-[986px] ">Ik sta nagenoeg elke week voor de klas of een groep in Nederland en België. Ik vertel dan in levenden lijve mijn ervaringsverhaal. Dit doe ik op middelbare scholen, jongereninstellingen, mbo’s en basisscholen.</p>
                 <div class="pt-2 md:pt-3 lg:pt-4"></div>
@@ -510,7 +520,7 @@
 </section>
 
 <section class="bg-[#FFFFFF]">
-    <div class="container pt-[95px] pb-[83px] md:pt-[116px] md:pb-[110px] lg:pt-[125px] lg:pb-[116px] xl:pt-[122px] xl:pb-[128px] space-y-5 md:space-y-6 lg:space-y-7 xl:space-y-7">
+    <div class="container pt-[95px] pb-[83px] md:pt-[116px] md:pb-[110px] lg:pt-[125px] lg:pb-[116px] xl:pt-[122px] xl:pb-[128px] space-y-4 md:space-y-5 lg:space-y-6 xl:space-y-6">
         <h4 class="text-35 text-[#0F1010] leading-50 md:text-40 md:leading-50 lg:text-52 lg:leading-62 xl:text-60 xl:leading-72 font-black font-satoshi max-w-[291px] w-full md:max-w-[574px] lg:max-w-[715px] xl:max-w-[793px] text-center mx-auto ">Klaar voor een voorlichting die indruk maakt?</h4>
         <p class=" text-[#000000] w-full max-w-[304px] md:max-w-[522px] lg:max-w-[671px] xl:max-w-[754px] text-center font-satoshi text-16 leading-30 font-medium md:text-20 md:leading-40 xl:text-23 xl:leading-50 mx-auto ">Met mijn voorlichting ‘Francien laat je tieten nog eens zien!’ deel ik dus mijn persoonlijke verhaal. Waaruit ik veel wijze lessen heb geleerd. Nu is het tijd om daar anderen deelgenoot van te maken.</p>
         <a class="flex justify-center items-center mx-auto hover:opacity-80 transition-opacity text-[#000000] bg-[#B5F964] rounded-[10px] font-satoshi font-medium text-16 md:text-20 lg:text-22 xl:text-[25px]  px-2 md:px-5 xl:px-6 w-fit h-[48px] md:h-[64px] xl:h-[72px]" href="">hello@francienregelink.nl</a>
@@ -523,13 +533,13 @@
             <h5 class="text-25 leading-30 md:text-24 md:leading-29 lg:text-35 lg:leading-42 xl:text-40 xl:leading-48 font-satoshi font-bold text-[#0F1010] text-center md:text-left">Werkt samen met:</h5>
         </div>
         <div class="col-span-1 flex">
-            <img class="mx-auto mix-blend-darken" src="/wp-content/themes/day-six/img/local/samen-werking-4.png" alt="">
+            <img class="mx-auto mix-blend-darken w-[136px] md:w-[91px] lg:w-[115px]" src="/wp-content/themes/day-six/img/local/samen-werking-4.png" alt="">
         </div>
         <div class="col-span-1 flex">
-            <img class="mx-auto mix-blend-darken" src="/wp-content/themes/day-six/img/local/samen-werking-2.png" alt="">
+            <img class="mx-auto mix-blend-darken w-[99px] md:w-[108px] lg:w-[163px] xl:w-[182px]" src="/wp-content/themes/day-six/img/local/samen-werking-2.png" alt="">
         </div>
         <div class="col-span-1 flex">
-            <img  class="mx-auto mix-blend-darken" src="/wp-content/themes/day-six/img/local/samen-werking-3.png" alt="">
+            <img  class="mx-auto mix-blend-darken w-[114px] md:w-[104px] lg:w-[148px] xl:w-[165px]" src="/wp-content/themes/day-six/img/local/samen-werking-3.png" alt="">
         </div>
     </div>
 </section>
@@ -537,7 +547,7 @@
 <section id="over" class="bg-white">
     <div class="container pt-6 pb-[125px] md:pt-8 md:pb-[115px] lg:pt-[140px] lg:pb-[110px] xl:pt-[125px] xl:pb-[160px] flex flex-col lg:flex-row gap-5 md:gap-8 lg:gap-[150px] xl:gap-[160px]">
         <div class="">
-            <h4 class="text-35 text-[#222222] leading-50 md:text-40 md:leading-50 lg:text-52 lg:leading-62 xl:text-60 xl:leading-72 font-black font-satoshi w-full pb-[35px] md:pb-[60px] lg:pb-[65px] xl:pb-7">Over</h4>
+            <h4 class="text-35 text-[#222222] leading-50 md:text-40 md:leading-50 lg:text-52 lg:leading-62 xl:text-60 xl:leading-72 font-black font-satoshi w-full pb-[30px] md:pb-[50px] lg:pb-[55px] xl:pb-6">Over</h4>
             <p class="text-[#222222] font-satoshi text-16 leading-30 font-medium w-full md:text-20 md:leading-40  lg:text-20 lg:leading-40  xl:text-23 xl:leading-45 max-w-[331px] md:max-w-[674px] lg:max-w-[520px] xl:max-w-[610px]">Ik ben Francien Regelink. Online marketeer, content strategist en dé deskundige op het gebied van shame sexting. Hoezo dat? Omdat ik er zelf slachtoffer van ben. Toen ik vijftien jaar oud was, liet ik via de webcam mijn borsten zien aan de coolste jongen van de school. Van de ene op de andere dag was ik dat meisje van die tietenfoto inclusief de bijnaam ‘Francien laat je tieten nog eens zien!’. En iedereen vond daar wat van, vond vooral wat van mij. Alsof het allemaal mijn eigen schuld was. Dat ging ik zelf ook geloven door al die waardeoordelen. Vandaag de dag weet ik dat het niet mijn schuld is.</p>
         </div>
         <img class="w-full md:hidden lg:flex max-w-[274px] lg:max-w-[370px] xl:max-w-[414px] mx-auto" src="/wp-content/themes/day-six/img/local/over.png" alt="">
@@ -548,7 +558,7 @@
 <section id="media" class="bg-[#1D1D19] pt-8 pb-10 md:pt-10 md:pb-6 lg:pt-11 lg:pb-9 xl:pt-11 xl:pb-9">
     <div class="container">
         <h4 class="text-35 text-[#fff] leading-50 md:text-40 md:leading-50 lg:text-52 lg:leading-62 xl:text-60 xl:leading-72 font-black font-satoshi w-full">In de media</h4>
-        <p class="text-[#fff] font-satoshi text-16 leading-30 font-medium w-full md:text-20 md:leading-40  lg:text-20 lg:leading-40  xl:text-23 xl:leading-45 max-w-[324px] md:max-w-[674px] lg:max-w-[1069px] xl:max-w-[1191px] pt-5 pb-7 md:pt-7 md:pb-10 lg:pt-[55px] lg:pb-8 xl:pt-6 xl:pb-10">Pas toen ik 12 jaar na dato het heft in eigen handen nam door mijn verhaal te doen bij Nieuwsuur werd ik het boegbeeld van shame sexting. Inmiddels ben ik een veelgevraagde expert en ervaringsdeskundige op dit gebied. Waardoor ik veelvuldig te horen en zien ben op radio en tv. Of plaatsneem in panels en praatprogramma’s. </p>
+        <p class="text-[#fff] font-satoshi text-16 leading-30 font-medium w-full md:text-20 md:leading-40  lg:text-20 lg:leading-40  xl:text-23 xl:leading-45 max-w-[324px] md:max-w-[674px] lg:max-w-[1069px] xl:max-w-[1191px] pt-3 pb-6 md:pt-5 md:pb-6 lg:pt-[55px] lg:pb-8 xl:pt-6 xl:pb-8">Pas toen ik 12 jaar na dato het heft in eigen handen nam door mijn verhaal te doen bij Nieuwsuur werd ik het boegbeeld van shame sexting. Inmiddels ben ik een veelgevraagde expert en ervaringsdeskundige op dit gebied. Waardoor ik veelvuldig te horen en zien ben op radio en tv. Of plaatsneem in panels en praatprogramma’s. </p>
     </div>
     <div class="swiper mySwiper-media relative ">
 
@@ -610,7 +620,7 @@
 </section>
 
 <section id="contact"  class="bg-[#FFFFFF]">
-    <div class="container py-7 md:pt-[116px] md:pb-[80px] lg:pt-[125px] lg:pb-[130px] xl:pt-[150px] xl:pb-[150px] space-y-5 md:space-y-6 lg:space-y-7 xl:space-y-7">
+    <div class="container py-7 md:pt-[116px] md:pb-[80px] lg:pt-[125px] lg:pb-[130px] xl:pt-[150px] xl:pb-[150px] space-y-4 md:space-y-6 lg:space-y-6 xl:space-y-7">
         <h4 class="text-35 text-[#0F1010] leading-50 md:text-40 md:leading-50 lg:text-52 lg:leading-62 xl:text-60 xl:leading-72 font-black font-satoshi max-w-[291px] w-full md:max-w-[574px] lg:max-w-[715px] xl:max-w-[793px] text-center mx-auto ">Contact met Francien</h4>
         <p class=" text-[#000000]  w-full max-w-[304px] md:max-w-[522px] lg:max-w-[671px] xl:max-w-[754px] text-center font-satoshi text-16 leading-30 font-medium md:text-20 md:leading-40 lg:text-20 lg:leading-40 xl:text-23 xl:leading-45 mx-auto ">Vragen? Interesse? Neem contact met mij op via onderstaand mailadres om de mogelijkheden te bespreken.
 </br> </br>
