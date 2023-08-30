@@ -291,20 +291,3 @@ try {
     });
   });
 } catch (error) {}
-
-try {
-  // Function to update the --vh custom property
-  const updateVh = () => {
-    // Get the viewport height
-    let vh = window.innerHeight * 0.01;
-    // Set the value of --vh to the root of the document
-    document.documentElement.style.setProperty("--vh", `${vh}px`);
-  };
-
-  // Call the function on page load
-  updateVh();
-
-  // Listen for the resize and scroll events
-  window.addEventListener("resize", updateVh);
-  window.addEventListener("scroll", updateVh);
-} catch (error) {}
