@@ -32,7 +32,7 @@
                             <span class="h-[2px] bg-black border-md w-full block"></span>
                             <span class="h-[2px] bg-black border-md w-full block"></span>
                         </div>
-                        <span class="text-16 leading-16 md:text-17 md:leading-17 font-satoshi font-normal w-[49.44px] md:w-[53.9px] text-center absolute left-0 right-0 bottom-[-30px]">Menu</span>
+                        <span class="text-16 leading-16 md:text-17 md:leading-17 font-satoshi font-normal w-[49.44px] md:w-[53.9px] text-center absolute left-0 right-0 bottom-[-25px]">Menu</span>
                     </button>
                     <!-- BUTTON -->
                     <a href="#contact" class="h-[41.21px] w-[123.47px] md:h-[42.54px] md:w-[147.12px] xl:h-[48px] xl:w-[166px] bg-black flex items-center justify-center rounded-[9px] text-white hover:bg-[#B5F964] hover:text-black duration-300"><span class="text-16 leading-16 md:text-17 md:leading-17 xl:text-20 xl:leading-20 font-satoshi font-normal">Contact</span></a>

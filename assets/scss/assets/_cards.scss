@@ -77,11 +77,79 @@
 }
 
 .bounce {
-  animation: 2s bounce infinite;
+  animation: bounce 8s infinite;
 }
 
 @keyframes bounce {
+  0%,
+  5% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-20px);
+  }
+  12.5% {
+    transform: translateY(0);
+  }
+  15% {
+    transform: translateY(-10px);
+  }
+  20%,
+  25% {
+    transform: translateY(0);
+  }
+
+  25%,
+  30% {
+    transform: translateY(0);
+  }
+  35% {
+    transform: translateY(-20px);
+  }
+  37.5% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  45%,
   50% {
-    transform: translateY(-5px);
+    transform: translateY(0);
+  }
+
+  50%,
+  55% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-20px);
+  }
+  62.5% {
+    transform: translateY(0);
+  }
+  65% {
+    transform: translateY(-10px);
+  }
+  70%,
+  75% {
+    transform: translateY(0);
+  }
+
+  75%,
+  80% {
+    transform: translateY(0);
+  }
+  85% {
+    transform: translateY(-20px);
+  }
+  87.5% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(-10px);
+  }
+  95%,
+  100% {
+    transform: translateY(0);
   }
 }

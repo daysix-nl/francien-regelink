@@ -1,16 +1,18 @@
-$transition-delay: 0.1s;
-$first-delay: 0.5s;
+$transition-delay: 0.05s;
+$first-delay: 0.4s;
 
 .navbar-overlay {
   .ul-animation {
     li {
       opacity: 0;
-      transition: all 0.3s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      transform: translateY(40px);
     }
   }
   .contact-button {
     opacity: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(40px);
   }
   &.active {
     .ul-animation {
@@ -18,7 +20,8 @@ $first-delay: 0.5s;
         @for $i from 1 through 6 {
           &:nth-child(#{$i}) {
             opacity: 1;
-            transition: all 0.3s ease-in-out;
+            transform: translateY(0);
+            transition: all 0.5s ease-in-out;
             @if $i == 1 {
               transition-delay: $first-delay;
             } @else {
@@ -31,7 +34,8 @@ $first-delay: 0.5s;
 
     .contact-button {
       opacity: 1;
-      transition: all 0.3s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      transform: translateY(0px);
       transition-delay: $first-delay + $transition-delay * 7;
     }
   }

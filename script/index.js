@@ -1,5 +1,3 @@
-
-
 try {
   gsap.to(".parralax-box", {
     y: -300,
@@ -18,6 +16,7 @@ try {
   const navbarOverlay = document.querySelector(".navbar-overlay");
   const closeButton = document.querySelector(".close-button");
   const navbarLinks = document.querySelectorAll(".navbar-link");
+  const contactButton = document.querySelector(".contact-button");
 
   hamburgerButton.addEventListener("click", () => {
     navbarOverlay.classList.toggle("active");
@@ -34,6 +33,11 @@ try {
       navbarOverlay.classList.toggle("active");
       document.querySelector("html").style.overflow = "auto";
     });
+  });
+
+  contactButton.addEventListener("click", () => {
+    navbarOverlay.classList.toggle("active");
+    document.querySelector("html").style.overflow = "auto";
   });
 } catch (error) {}
 
