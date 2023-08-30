@@ -34,3 +34,8 @@ body {
 .content {
   width: 100vw;
 }
+
+.screen-h {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}

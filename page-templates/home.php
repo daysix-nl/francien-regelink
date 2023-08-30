@@ -630,7 +630,7 @@ Oh, en ben jij die jongen die ooit die foto van mijn tieten heeft doorgestuurd n
     </div>
 </section>
 
-<div id="modal-1" class="hidden bg-[#1D1D19]/[0.85] overflow-x-hidden fixed z-[15] top-0 right-0 left-0 bottom-0 w-screen h-screen modals">
+<div id="modal-1" class="hidden screen-h bg-[#1D1D19]/[0.85] overflow-x-hidden fixed z-[15] top-0 right-0 left-0 bottom-0 w-screen h-screen modals">
   <div class="relative px-0 h-screen flex items-center justify-center">
     <div class="bg-[#070706] w-[95vw] max-w-[1102px] md:mx-auto p-2 md:p-4 flex flex-col   z-50 relative">
 
@@ -649,7 +649,7 @@ Oh, en ben jij die jongen die ooit die foto van mijn tieten heeft doorgestuurd n
   </div>
 </div>
 
-<div id="modal-2" class="hidden bg-[#1D1D19]/[0.85] overflow-x-hidden fixed z-[15] top-0 right-0 left-0 bottom-0 w-screen h-screen modals">
+<div id="modal-2" class="hidden screen-h bg-[#1D1D19]/[0.85] overflow-x-hidden fixed z-[15] top-0 right-0 left-0 bottom-0 w-screen h-screen modals">
   <div class="relative px-0 h-screen flex items-center justify-center">
     <div class="bg-[#070706] w-[95vw] max-w-[1102px] md:mx-auto p-2 md:p-4 flex flex-col   z-50 relative">
 
@@ -669,7 +669,7 @@ Oh, en ben jij die jongen die ooit die foto van mijn tieten heeft doorgestuurd n
 </div>
 
 
-<div id="modal-3" class="hidden bg-[#1D1D19]/[0.85] overflow-x-hidden fixed z-[15] top-0 right-0 left-0 bottom-0 w-screen h-screen modals">
+<div id="modal-3" class="hidden screen-h bg-[#1D1D19]/[0.85] overflow-x-hidden fixed z-[15] top-0 right-0 left-0 bottom-0 w-screen h-screen modals">
   <div class="relative px-0 h-screen flex items-center justify-center">
     <div class="bg-[#070706] w-[95vw] max-w-[1102px] md:mx-auto p-2 md:p-4 flex flex-col   z-50 relative">
 
@@ -688,7 +688,7 @@ Oh, en ben jij die jongen die ooit die foto van mijn tieten heeft doorgestuurd n
   </div>
 </div>
 
-<div id="modal-4" class="hidden bg-[#1D1D19]/[0.85] overflow-x-hidden fixed z-[15] top-0 right-0 left-0 bottom-0 w-screen h-screen modals">
+<div id="modal-4" class="hidden screen-h bg-[#1D1D19]/[0.85] overflow-x-hidden fixed z-[15] top-0 right-0 left-0 bottom-0 w-screen h-screen modals">
   <div class="relative px-0 h-screen flex items-center justify-center">
     <div class="bg-[#070706] w-[95vw] max-w-[1102px] md:mx-auto p-2 md:p-4 flex flex-col z-50 relative">
 
