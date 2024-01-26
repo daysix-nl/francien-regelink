@@ -207,10 +207,6 @@
 
                             <h3 class="font-satoshi font-bold text-24 leading-26 md:text-20 md:leading-24 lg:text-28 lg:leading-35 xl:text-32 xl:leading-40 mb-1">Voorlichting</h3>
                             <p class="flex font-satoshi font-medium text-13 leading-20 md:text-12 md:leading-21 lg:text-16 lg:leading-25 xl:text-19 xl:leading-30 text-[#222222]">Social media gebruik</p>
-                            <div class="mt-[15px] mb-[25px] flex">
-                                <p class="font-darker text-35 leading-21 md:text-32 md:leading-19 lg:text-44 lg:leading-26 xl:text-50 xl:leading-30 font-semibold">€150</p>
-                                <p class="flex font-satoshi font-medium text-15  md:text-12  lg:text-15 xl:text-17  text-[#222222] leading-[6px] text-end  items-end ml-[10px]">Per klas </p>
-                            </div>
                             <p class="flex font-satoshi font-medium text-15 leading-20 md:text-12 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">70 - 90 minuten</p>
                             <div class="h-[0.5px] bg-[#707070]/[0.15] mt-2 mb-2 md:mb-[15px] lg:mb-2"></div>
                             <h4 class="pb-[10px] text-16 leading-29 md:text-13 md:leading-27 lg:text-16 lg:leading-36 xl:text-18 xl:leading-40 font-satoshi font-bold">Inclusief:</h4>
@@ -219,7 +215,7 @@
                                 <li class="flex font-satoshi font-medium text-15 leading-20 md:text-11 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">Voorlichting</li>
                                 <li class="flex font-satoshi font-medium text-15 leading-20 md:text-11 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">Vragen / Napraat</li>
                             </ul>
-                            <a class="mt-auto bg-[#79314E] rounded-[6px] lg:rounded-[11px] text-center h-5 md:h-[44px] lg:h-[56px] xl:h-[62px] text-white flex justify-center items-center font-satoshi text-15 md:text-13 lg:text-17 font-medium hover:opacity-80 transition-opacity" href="">Offerte aanvragen</a>
+                            <button class="mt-auto bg-[#79314E] rounded-[6px] lg:rounded-[11px] text-center h-5 md:h-[44px] lg:h-[56px] xl:h-[62px] text-white flex justify-center items-center font-satoshi text-15 md:text-13 lg:text-17 font-medium hover:opacity-80 transition-opacity button-offerte-aanvraag">Offerte aanvragen</button>
                         </div>
                     </div>
                     <div class="swiper-slide cursor-pointer relative pt-[15px] flex flex-col h-[auto_!important]">
@@ -230,10 +226,6 @@
 
                             <h3 class="font-satoshi font-bold text-24 leading-26 md:text-20 md:leading-24 lg:text-28 lg:leading-35 xl:text-32 xl:leading-40 mb-1">Voorlichting</h3>
                             <p class="flex font-satoshi font-medium text-13 leading-20 md:text-12 md:leading-21 lg:text-16 lg:leading-25 xl:text-19 xl:leading-30 text-[#222222]">Shame sexting</p>
-                            <div class="mt-[15px] mb-[25px] flex">
-                                <p class="font-darker text-35 leading-21 md:text-32 md:leading-19 lg:text-44 lg:leading-26 xl:text-50 xl:leading-30 font-semibold">€150</p>
-                                <p class="flex font-satoshi font-medium text-15  md:text-12  lg:text-15 xl:text-17  text-[#222222] leading-[6px] text-end  items-end ml-[10px]">Per klas </p>
-                            </div>
                             <p class="flex font-satoshi font-medium text-15 leading-20 md:text-12 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">70 - 90 minuten</p>
                             <div class="h-[0.5px] bg-[#707070]/[0.15] mt-2 mb-2 md:mb-[15px] lg:mb-2"></div>
                             <h4 class=" pb-[10px] text-16 leading-29 md:text-13 md:leading-27 lg:text-16 lg:leading-36 xl:text-18 xl:leading-40 font-satoshi font-bold">Inclusief:</h4>
@@ -242,16 +234,13 @@
                                 <li class="flex font-satoshi font-medium text-15 leading-20 md:text-11 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">Voorlichting</li>
                                 <li class="flex font-satoshi font-medium text-15 leading-20 md:text-11 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">Vragen / Napraat</li>
                             </ul>
-                            <a class="mt-auto bg-[#79314E] rounded-[6px] lg:rounded-[11px] text-center h-5 md:h-[44px] lg:h-[56px] xl:h-[62px] text-white flex justify-center items-center font-satoshi text-15 md:text-13 lg:text-17 font-medium hover:opacity-80 transition-opacity" href="">Offerte aanvragen</a>
+                            <button class="mt-auto bg-[#79314E] rounded-[6px] lg:rounded-[11px] text-center h-5 md:h-[44px] lg:h-[56px] xl:h-[62px] text-white flex justify-center items-center font-satoshi text-15 md:text-13 lg:text-17 font-medium hover:opacity-80 transition-opacity button-offerte-aanvraag">Offerte aanvragen</button>
                         </div>
                     </div>
                     <div class="swiper-slide cursor-pointer pt-[15px] flex flex-col h-[auto_!important]">
                         <div class="item cursor-pointer bg-white h-full flex flex-col pt-[35px] lg:pt-4 pb-2 px-2 lg:px-[25px] lg:pb-[25px] xl:pt-5 lg:pb-3 rounded-[8px]">
                             <h3 class="font-satoshi font-bold text-24 leading-26 md:text-20 md:leading-24 lg:text-28 lg:leading-35 xl:text-32 xl:leading-40 mb-1">Ouderavond</h3>
                             <p class="flex font-satoshi font-medium text-13 leading-20 md:text-12 md:leading-21 lg:text-16 lg:leading-25 xl:text-19 xl:leading-30 text-[#222222]">Social media gebruik kind</p>
-                            <div class="mt-[15px] mb-[25px] flex">
-                                <p class="font-darker text-35 leading-21 md:text-32 md:leading-19 lg:text-44 lg:leading-26 xl:text-50 xl:leading-30 font-semibold">€450</p>
-                            </div>
                             <p class="flex font-satoshi font-medium text-15 leading-20 md:text-12 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">70 - 90 minuten</p>
                             <div class="h-[0.5px] bg-[#707070]/[0.15] mt-2 mb-2 md:mb-[15px] lg:mb-2"></div>
                             <h4 class=" pb-[10px] text-16 leading-29 md:text-13 md:leading-27 lg:text-16 lg:leading-36 xl:text-18 xl:leading-40 font-satoshi font-bold">Inclusief:</h4>
@@ -261,16 +250,13 @@
                                 <li class="flex font-satoshi font-medium text-15 leading-20 md:text-11 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">Vragen / Napraat</li>
                                 <li class="flex font-satoshi font-medium text-15 leading-20 md:text-11 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">5 Boeken</li>
                             </ul>
-                            <a class="mt-auto bg-[#79314E] rounded-[6px] lg:rounded-[11px] text-center h-5 md:h-[44px] lg:h-[56px] xl:h-[62px] text-white flex justify-center items-center font-satoshi text-15 md:text-13 lg:text-17 font-medium hover:opacity-80 transition-opacity" href="">Offerte aanvragen</a>
+                            <button class="mt-auto bg-[#79314E] rounded-[6px] lg:rounded-[11px] text-center h-5 md:h-[44px] lg:h-[56px] xl:h-[62px] text-white flex justify-center items-center font-satoshi text-15 md:text-13 lg:text-17 font-medium hover:opacity-80 transition-opacity button-offerte-aanvraag">Offerte aanvragen</button>
                         </div>
                     </div>
                     <div class="swiper-slide cursor-pointer pt-[15px] flex flex-col h-[auto_!important]">
                         <div class="item cursor-pointer bg-white h-full flex flex-col pt-[35px] lg:pt-4 pb-2 px-2 lg:px-[25px] lg:pb-[25px] xl:pt-5 lg:pb-3 rounded-[8px]">
                             <h3 class="font-satoshi font-bold text-24 leading-26 md:text-20 md:leading-24 lg:text-28 lg:leading-35 xl:text-32 xl:leading-40 mb-1">Combi Pakket</h3>
                             <p class="flex font-satoshi font-medium text-13 leading-20 md:text-12 md:leading-21 lg:text-16 lg:leading-25 xl:text-19 xl:leading-30 text-[#222222]">Voorlichting + ouderavond</p>
-                            <div class="mt-[15px] mb-[25px] flex">
-                                <p class="font-darker text-35 leading-21 md:text-32 md:leading-19 lg:text-44 lg:leading-26 xl:text-50 xl:leading-30 font-semibold">€600</p>
-                            </div>
                             <p class="flex font-satoshi font-medium text-15 leading-20 md:text-12 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">70 - 90 minuten</p>
                             <div class="h-[0.5px] bg-[#707070]/[0.15] mt-2 mb-2 md:mb-[15px] lg:mb-2"></div>
                             <h4 class=" pb-[10px] text-16 leading-29 md:text-13 md:leading-27 lg:text-16 lg:leading-36 xl:text-18 xl:leading-40 font-satoshi font-bold">Inclusief:</h4>
@@ -280,7 +266,7 @@
                                 <li class="flex font-satoshi font-medium text-15 leading-20 md:text-11 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">Vragen / Napraat</li>
                                 <li class="flex font-satoshi font-medium text-15 leading-20 md:text-11 md:leading-18 lg:text-15 lg:leading-26 xl:text-17 xl:leading-30 text-[#222222]">5 Boeken</li>
                             </ul>
-                            <a class="mt-auto bg-[#79314E] rounded-[6px] lg:rounded-[11px] text-center h-5 md:h-[44px] lg:h-[56px] xl:h-[62px] text-white flex justify-center items-center font-satoshi text-15 md:text-13 lg:text-17 font-medium hover:opacity-80 transition-opacity " href="">Offerte aanvragen</a>
+                            <button class="mt-auto bg-[#79314E] rounded-[6px] lg:rounded-[11px] text-center h-5 md:h-[44px] lg:h-[56px] xl:h-[62px] text-white flex justify-center items-center font-satoshi text-15 md:text-13 lg:text-17 font-medium hover:opacity-80 transition-opacity button-offerte-aanvraag" >Offerte aanvragen</button>
                         </div>
                     </div>
                 </div>
@@ -702,6 +688,25 @@ Oh, en ben jij die jongen die ooit die foto van mijn tieten heeft doorgestuurd n
         </button>
       <div class="p-1 md:p-2">
         <iframe class="w-full aspect-video h-full" src="https://www.youtube.com/embed/4kLXEZWFkPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal-box" class="hidden screen-h bg-[#1D1D19]/[0.85] overflow-x-hidden fixed z-[15] top-0 right-0 left-0 bottom-0 w-screen screen-h modals">
+  <div class="relative px-0 screen-h flex items-center justify-center">
+    <div class="bg-[#070706] w-[95vw] max-w-[700px] md:mx-auto p-2 md:p-4 flex flex-col z-50 relative rounded-xl">
+
+        <button class="block close-modal ml-auto">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24.121" height="24.121" viewBox="0 0 24.121 24.121">
+                <g id="Group_202" data-name="Group 202" transform="translate(-1207.439 -108.939)">
+                    <path id="Line_32" data-name="Line 32" d="M1.061,23.061l-2.121-2.121,22-22,2.121,2.121Z" transform="translate(1208.5 110)" fill="#fff"/>
+                    <path id="Line_33" data-name="Line 33" d="M20.939,23.061l-22-22L1.061-1.061l22,22Z" transform="translate(1208.5 110)" fill="#fff"/>
+                </g>
+            </svg>
+        </button>
+      <div class="p-1 md:p-2 max-h-[80vh] overflow-auto scrollbar-hide">
+            <?php echo do_shortcode('[gravityform id="2" title="false" description="false" ajax="true"]'); ?>
       </div>
     </div>
   </div>

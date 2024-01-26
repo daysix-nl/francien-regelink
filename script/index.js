@@ -291,3 +291,23 @@ try {
     });
   });
 } catch (error) {}
+
+try {
+  addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll(".button-offerte-aanvraag");
+    const modal = document.querySelector("#modal-box");
+    const closeModalButton = document.querySelector(".close-modal");
+    const html = document.querySelector("html");
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        modal.classList.remove("hidden");
+        html.style.overflow = "hidden";
+      });
+    });
+
+    closeModalButton.addEventListener("click", () => {
+      modal.classList.add("hidden");
+      html.style.overflow = "auto";
+    });
+  });
+} catch (error) {}

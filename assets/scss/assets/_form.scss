@@ -1,0 +1,127 @@
+.gform_wrapper {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    input[type="password"],
+    textarea {
+        background: rgba(0, 0, 0, 0) !important;
+        border: 1.5px solid #fff !important;
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 15px 15px !important;
+        color: #fff !important;
+        border-radius: 20px;
+
+        &:focus {
+            outline-color: #B5F964;
+        }
+    }
+
+    label {
+        color: #fff !important;
+    }
+
+    select {
+        background: rgba(0, 0, 0, 0) !important;
+        border: 1.5px solid #fff !important;
+        border-radius: 20px;
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 15px 15px !important;
+        color: #fff !important;
+        font-family: satoshi;
+
+        &:focus {
+            outline-color: #B5F964;
+        }
+    }
+
+    input[type="checkbox"] {
+        appearance: none;
+        background-color: #fff;
+        margin: 0;
+        font: inherit;
+        color: currentColor;
+        width: 0.9em;
+        height: 0.9em;
+        border: 0.15em solid currentColor;
+        border-radius: 0.15em;
+        transform: translateY(-0.075em);
+        color: #fff !important;
+        margin-right: 5px;
+        font-family: satoshi;
+
+        &::before {
+            content: "";
+            display: flex;
+            width: 0.6em;
+            height: 0.6em;
+            transform: scale(0);
+            transition: 120ms transform ease-in-out;
+            background-color: #000;
+        }
+
+        &:checked::before {
+            transform: scale(1);
+        }
+    }
+
+    .gchoice_2_10_1 {
+        display: flex;
+        align-items: center;
+    }
+
+    input[type="submit"] {
+        background: #fff !important;
+        border: unset !important;
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-top: 0;
+        height: 48px;
+        color: #000 !important;
+        border-radius: 9px;
+        transition: all 0.4s ease-in-out;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0 15px !important;
+        font-family: satoshi;
+
+        &:hover {
+            background-color: #B5F964 !important;
+            color: #000 !important;
+        }
+
+
+    }
+
+
+    .gfield_error {
+        input {
+            border: 1.5px solid #FF0000 !important;
+        }
+    }
+
+    .validation_message,
+    .gform_validation_errors {
+        display: none;
+    }
+
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
